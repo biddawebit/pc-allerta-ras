@@ -4,11 +4,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "postinstall": "puppeteer browsers install chromium",
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "puppeteer": "^22.0.0"
+    "puppeteer": "21.3.8"
   }
 }
